@@ -1,0 +1,29 @@
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 0.5em 1em;
+  border: 2px solid #646cff;
+  background-color: transparent;
+  color: #646cff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  background-color: #646cff;
+  color: white;
+}
+
+.reset-button {
+  border-color: #ff4646;
+  color: #ff4646;
+}
+
+.reset-button:hover {
+  background-color: #ff4646;
+  color: white;
+}
